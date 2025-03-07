@@ -15,7 +15,6 @@ st.set_page_config(
 )
 
 
-
 def show():
     st.title("Главная страница")
     st.write("Добро пожаловать на главную страницу!")
