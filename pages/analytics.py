@@ -1,17 +1,4 @@
-from functions.plotly_functions import *
-
-# --- Настройки страницы ---
-st.set_page_config(
-    page_title="Аналитика данных",
-    layout="centered",
-    initial_sidebar_state="expanded",
-    menu_items={
-        "Get Help": "https://github.com/behzod33/ds_basic_final/blob/master/README.md",
-        "About": """Github проекта: 
-                    https://github.com/behzod33/ds_basic_final/"""
-    }
-)
-
+from functions.plotly_utils import *
 
 
 # --- Основной интерфейс ---
